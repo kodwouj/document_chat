@@ -1,0 +1,12 @@
+name: document_chat
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.4
+  - pip
+  - pip:
+      - langchain
+      - sentence-transformers
+      - streamlit
+      - faiss-cpu
+
