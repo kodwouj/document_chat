@@ -1,0 +1,153 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.pyo
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.cache/
+pytest-debug.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.*
+.venv
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# VS Code
+.vscode/
+.history/
+.idea/
+*.code-workspace
+
+# Local environments
+local.env
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Streams and Pipes
+*.sublime-*
+*.bak
+*.swp
+*.tmp
+
+# Python-specific
+*.lock
+poetry.lock
+Pipfile.lock
+
+# Conda environments
+*.conda
+*.virtualenv
+*.virtualenvs
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Test logs
+test-results/
+*.log
+*.tlog
+
+# Streamlit
+.streamlit/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Logs and databases
+*.sqlite3
+*.log
+
+# Generated files
+*.html
+
+# Ignore generated docs
+docs/_build/
+site/
+site/*
+
+# Ignore env files
+.envrc
+.env
+env/
+
+# Ignore temporary files
+temp/
+tmp/
+
+# Ignore data files
+data/

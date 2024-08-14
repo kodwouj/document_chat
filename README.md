@@ -33,6 +33,10 @@ This project uses a Conda environment. To set up the environment:
         cd C:\document_chat\Test 1
     # Initialize a Git repository in your local project folder
         git init
+    #  let's check which branch you're currently on
+        git branch
+    # Create and switch to a new branch called "main" if necessary
+        git checkout -b main
     # Add your files to the Git repository
         git add . 
     # Commit the files

@@ -1,12 +1,45 @@
 name: document_chat
 channels:
   - conda-forge
+  - defaults
 dependencies:
-  - python=3.12.4
+  - python=3.10
+  - pandas
   - pip
   - pip:
-      - langchain
-      - sentence-transformers
-      - streamlit
-      - faiss-cpu
-
+    - langchain
+    - langchain-community
+    - sentence-transformers
+    - streamlit
+    - faiss-cpu
+    - openpyxl
+    - pypdf
+    - torch
+    - python-docx
+    - python-pptx
+    - python-dotenv
+    - tenacity
+    - cachetools
+    - ratelimit
+    - huggingface_hub
+    - orjson
+    - pydantic
+    - pydantic-core
+    - lxml
+    - Pillow
+    - MarkupSafe
+    - PyYAML
+    - SQLAlchemy
+    - aiohttp
+    - charset-normalizer
+    - frozenlist
+    - greenlet
+    - multidict
+    - pyarrow
+    - regex
+    - rpds-py
+    - safetensors
+    - scikit-learn
+    - scipy
+    - tokenizers
+    - yarl
